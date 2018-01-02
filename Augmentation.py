@@ -7,7 +7,7 @@ from natsort import natsorted
 import writexml
 
 Xml_file="Xml"
-Image_file="Images"
+Image_file="IR"
 
 xml_list=natsorted(os.listdir(Xml_file), key=lambda y: y.lower())
 img_list=natsorted(os.listdir(Image_file), key=lambda y: y.lower())
